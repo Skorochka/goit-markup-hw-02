@@ -163,3 +163,45 @@ letter-spacing: 0.03em;
 .label-second-part-footer {
     color: var(--first-bloc-color);
 }
+
+
+/* Portfolio page */
+
+.main-section-portfolio {
+    background-color: var(--section-color) ;
+   
+}
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--section-team-color);
+}
+.button-portfolio:hover {
+    color: var(--first-bloc-color);
+    background-color: var(--accent-text-color);
+}
+
+.portfolio-description {
+    text-decoration: none;
+    list-style: none;
+}
+
+.title-img-portfolio {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.section-name-portfolio {
+font-size: 16px;
+line-height: 1,87;
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+}
