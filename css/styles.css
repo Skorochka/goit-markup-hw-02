@@ -26,7 +26,8 @@ body {
     color: inherit;
     cursor: pointer
 }
-.link:hover .link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-text-color);
 }
 .list {
@@ -167,10 +168,14 @@ letter-spacing: 0.03em;
 
 /* Portfolio page */
 
-.main-section-portfolio {
-    background-color: var(--section-color) ;
-   
+a {
+    text-decoration: none;
 }
+
+.main-section-portfolio {
+    background-color: var(--section-color) ;   
+}
+
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
@@ -185,10 +190,6 @@ letter-spacing: 0.03em;
     background-color: var(--accent-text-color);
 }
 
-.portfolio-description {
-    text-decoration: none;
-    list-style: none;
-}
 
 .title-img-portfolio {
     font-weight: bold;
